@@ -7,7 +7,7 @@ import (
 
 // Server - Mini Redis-like server
 func Server() {
-	/*fmt.Println("Listening on port :6379")
+	fmt.Println("Listening on port :6379")
 
 	server, err := net.Listen("tcp", ":6379")
 	if err != nil {
@@ -36,7 +36,7 @@ func Server() {
 		// Ignore the request and send below string
 		connection.Write([]byte("+Server Responds, OK\r\n"))
 
-	}*/
+	}
 }
 
 func main() {
